@@ -10,7 +10,7 @@ var launched_count = 0;
 	function updateDisplay() {
 		$("#launched").text("Application launched: " + launched_count);
 //		$("#paused").text("Application paused: " + paused_count);
-        document.getElementById("paused").text="Application paused: " + paused_count;
+        document.getElementById(paused).text="Application paused: " + paused_count;
 		$("#resumed").text("Application resumed: " + resumed_count);
 	}
 
